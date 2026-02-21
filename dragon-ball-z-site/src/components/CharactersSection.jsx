@@ -12,7 +12,7 @@ const characters = [
   },
   {
     name: 'Vegeta',
-    image: '/Z Fighters (@DragonBall43ver) on X.jpeg',
+    image: '/vegita.jpeg',
     description: 'Prince of all Saiyans',
     power: 'Super Saiyan Blue',
     color: 'from-blue-500 to-purple-500',
@@ -28,7 +28,7 @@ const characters = [
   },
   {
     name: 'Frieza',
-    image: '/Frieza - Phone Wallpaper Fan Art.jpeg',
+    image: '/frieza.jpeg',
     description: 'Emperor of the universe',
     power: 'Golden Frieza',
     color: 'from-purple-600 to-pink-600',
@@ -122,9 +122,6 @@ const characters = [
     color: 'from-yellow-600 to-orange-600',
     transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
   },
-
-  
-
 ]
 
 const CharactersSection = () => {

@@ -51,27 +51,7 @@ const HeroSection = () => {
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-300">
           Scroll to rotate the Dragon Ball and discover the legendary saga
         </p>
-        
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="dbz-button group">
-            <span className="relative z-10">Begin Journey</span>
-            <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity"></div>
-          </button>
-          <button className="px-6 py-3 border-2 border-dbz-orange text-white font-bold rounded-lg 
-                           transform transition-all duration-300 hover:scale-110 
-                           hover:bg-dbz-orange/20 relative overflow-hidden group">
-            <span className="relative z-10">Watch Trailer</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-dbz-orange to-dbz-yellow opacity-0 group-hover:opacity-20 transition-opacity"></div>
-          </button>
-        </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="text-white mb-2">Scroll to rotate</div>
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center mx-auto">
-            <div className="w-1 h-2 bg-white rounded-full mt-2 animate-pulse"></div>
-          </div>
-        </div>
       </div>
     </section>
   )
