@@ -71,7 +71,7 @@ const characters = [
     image: '/Piccolo.jpeg',
     description: 'Master Picolo',
     power: 'Picolo',
-    color: 'from-green-600 to-limrad-600',
+    color: 'from-green-600 to-blue-600',
     transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
   },
    {
@@ -95,7 +95,7 @@ const characters = [
     image: '/celldbz.jpeg',
     description: 'Super Saiyan Cell',
     power: 'Cell',
-    color: 'from-green-600 to-lime-600',
+    color: 'from-green-600 to-cyan-500',
     transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
   },
    {
@@ -120,6 +120,14 @@ const characters = [
     description: 'Most powerful combo',
     power: 'Deadly',
     color: 'from-yellow-600 to-orange-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Evil Majin Buu',
+    image: '/majinbuu.jpeg',
+    description: 'Evil Majin Buuu',
+    power: 'Deadly & Evil',
+    color: 'from-pink-600 to-white',
     transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
   },
 ]
