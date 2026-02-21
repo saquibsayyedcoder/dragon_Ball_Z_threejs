@@ -4,7 +4,7 @@ import CharacterViewer3D from './CharacterViewer3D'
 const characters = [
   {
     name: 'Goku',
-    image: '/teste.jpeg',
+    image: '/Goku.jpeg',
     description: 'The Saiyan warrior who protects Earth',
     power: 'Super Saiyan God SS',
     color: 'from-orange-500 to-red-500',
@@ -33,7 +33,98 @@ const characters = [
     power: 'Golden Frieza',
     color: 'from-purple-600 to-pink-600',
     transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
-  }
+  },
+  {
+    name: 'Broly',
+    image: '/broly.jpeg',
+    description: 'Most powerful saiyan',
+    power: 'Green Broly',
+    color: 'from-lime-600 to-green-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Balck Goku',
+    image: '/blakgoku.jpeg',
+    description: 'Duplicate Goku',
+    power: 'Black Goku',
+    color: 'from-black to-grey-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Trunk',
+    image: '/trunk.jpeg',
+    description: 'Sword of Trunk',
+    power: 'Trunk',
+    color: 'from-purple-500 to-indigo-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Vegito',
+    image: '/vegito.jpeg',
+    description: 'Goku and Vigeta',
+    power: 'Vegiot',
+    color: 'from-blue-500 to-cyan-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Picolo',
+    image: '/Piccolo.jpeg',
+    description: 'Master Picolo',
+    power: 'Picolo',
+    color: 'from-green-600 to-limrad-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Goten',
+    image: '/goten.jpeg',
+    description: 'Little Goku',
+    power: 'Gotu',
+    color: 'from-yellow-600 to-yellow-300',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Goten and Trunk',
+    image: '/gotentrunk.jpeg',
+    description: 'Combo of Goten and Trunk',
+    power: 'Super Goten trunk',
+    color: 'from-orange-600 to-yellow-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Cell',
+    image: '/celldbz.jpeg',
+    description: 'Super Saiyan Cell',
+    power: 'Cell',
+    color: 'from-green-600 to-lime-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Android 18',
+    image: '/android.jpeg',
+    description: 'Android 18',
+    power: 'Android 18',
+    color: 'from-yellow-600 to-blue-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+   {
+    name: 'Bulma',
+    image: '/bulma.jpeg',
+    description: 'Pretty Bulma',
+    power: 'Bulma',
+    color: 'from-cyan-600 to-yellow-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+  {
+    name: 'The Ultimate',
+    image: '/gokuvegita.jpeg',
+    description: 'Most powerful combo',
+    power: 'Deadly',
+    color: 'from-yellow-600 to-orange-600',
+    transformations: ['1st Form', '2nd Form', '3rd Form', 'Final Form', 'Golden']
+  },
+
+  
+
 ]
 
 const CharactersSection = () => {
